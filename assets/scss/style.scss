@@ -18,6 +18,10 @@
     font-family: "roboto";
 }
 
+.headline{
+    font-size: 3rem;
+}
+
 /* ============== header ============= */
 /* ============== header ============= */
 /* ============== header ============= */
@@ -58,7 +62,6 @@ header{
 /*         width: 55vw; */
         padding-left: 13%;
             h1{
-                font-size: 3rem;
                 margin-bottom: .5rem;
             }
             p:nth-of-type(1){
@@ -72,8 +75,36 @@ header{
 }
 
 
+/* ============== main ============= */
+/* ============== main ============= */
+/* ============== main ============= */
 
-
+main{
+    .topMainSectionImg{
+        width: 100%;
+        margin-bottom: 20vh;
+    }
+    .mainTextSection{
+        padding-left: 10vw;
+        padding-right: 10vw;
+            .mainTopTextFlexContainer{
+                display: flex;
+                margin-bottom: 20vh;
+                    h2{
+                        width: 45%;
+                    }
+                    p{
+                        width: 55%;
+                        line-height: 1.6;
+                        padding-right: 5%;
+                    }
+            }
+            .mainTopHeadlineBottom{
+                width: 65%;
+                margin-bottom: 20vh;
+            }
+    }
+}
 
 
 
