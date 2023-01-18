@@ -17,7 +17,9 @@
     box-sizing: border-box;
     font-family: "roboto";
 }
-
+/* .marginLeftAutoGrid{
+    margin-left: auto;
+} */
 .headline{
     font-size: 3rem;
 }
@@ -42,7 +44,7 @@ header{
         position:fixed
     }
     .logoText{
-        padding-left: 3.5vw;
+        padding-left: 3rem;
     }
     /* animation */
     @keyframes heroAnimation {
@@ -88,21 +90,21 @@ main{
     .mainTextSection{
         @include textGridPadding;
             .mainTopTextFlexContainer{
-                display: flex;
+                /* display: flex; */
                 margin-bottom: 20vh;
-                    h2{
+/*                     h2{
                         width: 45%;
                     }
                     p{
                         width: 55%;
                         line-height: 1.6;
                         padding-right: 5%;
-                    }
+                    } */
             }
-            .mainTopHeadlineBottom{
+/*             .mainTopHeadlineBottom{
                 width: 65%;
-                margin-bottom: 20vh;
-            }
+                margin-bottom: 20vh; 
+            } */
     }
     /* main grid section */
     .textGridContainer{
@@ -131,7 +133,7 @@ main{
                 margin-bottom: 40px;
             }
             p{
-                width: 600px;
+/*                 width: 600px; */
                 margin: auto;
                 font-size: 1.125rem;
                 margin-bottom: 20vh;
@@ -146,7 +148,7 @@ main{
                 }
             }
             .largeGridItemText{
-                width: 430px;
+                /* width: 430px; */
                 padding-left: 50px;
                 p:nth-of-type(1){
                     margin-bottom: 9vh;
@@ -166,9 +168,9 @@ main{
 
 footer{
     text-align: center;
-    .footerHeadline{
+/*     .footerHeadline{
         margin-bottom: 2vh;
-    }
+    } */
     .footerHeadlineText{
         margin-bottom: 2vh;
     }
@@ -179,10 +181,6 @@ footer{
             margin: auto;
             text-align: center;
             margin-bottom: 2vh;
-            padding-left: 8rem;
-            padding-right: 8rem;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
             box-shadow: 0px 6px 100px 5px rgba(0,0,0,0.30);
             border: none;
         }

@@ -6,9 +6,9 @@
     padding-right: 10vw;
 }
 @mixin textGridContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    /* display: grid; */
+/*     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
     margin-bottom: 10vh;
 }
 @mixin gridItem{
@@ -29,9 +29,9 @@
 }
 /* ========== large main grid section =========== */
 @mixin largeGridContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+/*     display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(4,1fr); */
     padding-left: 5vw;
     padding-right: 7vw;
 }
@@ -41,5 +41,5 @@
     margin-bottom: 10vh;
 }
 @mixin largeGridItemImg{
-    width: 430px;
+    /* width: 430px; */
 }
