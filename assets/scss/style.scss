@@ -39,6 +39,10 @@ header{
     .logo{
         width: 40px;
         margin-right: 1.5rem;
+        position:fixed
+    }
+    .logoText{
+        padding-left: 3.5vw;
     }
     /* animation */
     @keyframes heroAnimation {
@@ -192,6 +196,9 @@ footer{
             color: $white;
             background-color: $pink;
             border: none;
+            &:hover{
+                background: linear-gradient(29deg, $pink 0%, $purple 100%);
+            }
         }
         label{
             display: none;

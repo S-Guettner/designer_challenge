@@ -44,6 +44,10 @@ header .logoSectionFlexContainer {
 header .logo {
   width: 40px;
   margin-right: 1.5rem;
+  position: fixed;
+}
+header .logoText {
+  padding-left: 3.5vw;
 }
 @keyframes heroAnimation {
   0% {
@@ -212,6 +216,9 @@ footer form .submitButton {
   color: #fff;
   background-color: #ff3571;
   border: none;
+}
+footer form .submitButton:hover {
+  background: linear-gradient(29deg, #ff3571 0%, #3C30FF 100%);
 }
 footer form label {
   display: none;
