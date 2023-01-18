@@ -85,6 +85,8 @@ header .headlineArticle p:nth-of-type(2) {
 main {
   /* main section img top */
   /* main section text top */
+  /* main grid section */
+  /* =========== large grid section =========== */
 }
 main .topMainSectionImg {
   width: 100%;
@@ -113,6 +115,13 @@ main .mainTextSection .mainTopHeadlineBottom {
 main .textGridContainer {
   padding-left: 10vw;
   padding-right: 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 10vh;
+}
+main .textGridContainer .gridItem {
+  margin: auto;
 }
 main .textGridContainer .gridItemHeadline {
   display: flex;
@@ -123,6 +132,18 @@ main .textGridContainer .itemImg {
   margin-right: 15px;
 }
 main .textGridContainer .itemText {
-  width: 350px;
+  width: 300px;
   padding-left: 35px;
+  margin-bottom: 100px;
+}
+main .largeGridSection .largeGridSectionHeadline {
+  text-align: center;
+}
+main .largeGridSection .largeGridSectionHeadline h2 {
+  margin-bottom: 40px;
+}
+main .largeGridSection .largeGridSectionHeadline p {
+  width: 600px;
+  margin: auto;
+  font-size: 1.125rem;
 }/*# sourceMappingURL=style.css.map */

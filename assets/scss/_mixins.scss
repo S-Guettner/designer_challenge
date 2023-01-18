@@ -5,6 +5,15 @@
     padding-left: 10vw;
     padding-right: 10vw;
 }
+@mixin textGridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 10vh;
+}
+@mixin gridItem{
+    margin: auto;
+}
 @mixin gridItemHeadline{
     display: flex;
     margin-bottom: 1vh;
@@ -14,6 +23,7 @@
     margin-right:15px;
 }
 @mixin gridItemText{
-    width: 350px;
+    width: 300px;
     padding-left: 35px;
+    margin-bottom: 100px;
 }

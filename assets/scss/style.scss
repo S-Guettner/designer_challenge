@@ -105,8 +105,14 @@ main{
                 margin-bottom: 20vh;
             }
     }
+    /* main grid section */
     .textGridContainer{
         @include textGridPadding;
+        @include textGridContainer;
+        .gridItem{
+            @include gridItem;
+        }
+        
         .gridItemHeadline{
             @include gridItemHeadline;
         }
@@ -115,6 +121,21 @@ main{
         }
         .itemText{
             @include gridItemText;
+        }
+    }
+    /* =========== large grid section =========== */
+    .largeGridSection{
+
+        .largeGridSectionHeadline{
+            text-align: center;
+            h2{
+                margin-bottom: 40px;
+            }
+            p{
+                width: 600px;
+                margin: auto;
+                font-size: 1.125rem;
+            }
         }
     }
 }
