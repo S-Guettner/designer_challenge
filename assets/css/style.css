@@ -288,9 +288,6 @@ footer .footerNote {
   .headlineArticle {
     width: 90%;
   }
-  .animatedImage {
-    display: none;
-  }
   .textGridContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -342,5 +339,8 @@ footer .footerNote {
   }
   .mainTopTextFlexContainer h2 {
     margin-bottom: 2vh;
+  }
+  .animatedImage {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

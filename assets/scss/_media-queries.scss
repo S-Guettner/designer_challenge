@@ -47,6 +47,7 @@
             /* padding-right: 5%; */
         }
     }
+
 }
 
 @media only screen and (width <= 919px) {
@@ -55,9 +56,6 @@
     }
     .headlineArticle{
         width: 90%;
-    }
-    .animatedImage{
-        display: none;
     }
     .textGridContainer{
         display: grid;
@@ -113,5 +111,8 @@
         h2{
             margin-bottom: 2vh;
         }
+    }
+    .animatedImage{
+        display: none;
     }
     }
