@@ -178,4 +178,34 @@ main .largeGridSection .largeGridContainer .largeGridItemText p:nth-of-type(2) {
 }
 main .largeGridSection .largeGridContainer .largeGridItemText h3 {
   margin-bottom: 2vh;
+}
+
+footer {
+  text-align: center;
+}
+footer .footerHeadline {
+  margin-bottom: 2vh;
+}
+footer .footerHeadlineText {
+  margin-bottom: 2vh;
+}
+footer form .email {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1.5vh;
+}
+footer form .submitButton {
+  margin-bottom: 8vh;
+}
+footer form label {
+  display: none;
+}
+footer form label .submitButton {
+  display: block;
+}
+footer .footerNote {
+  text-align: start;
+  padding-left: 5vw;
+  padding-bottom: 2vh;
 }/*# sourceMappingURL=style.css.map */

@@ -21,11 +21,9 @@
 .headline{
     font-size: 3rem;
 }
-
 /* ============== header ============= */
 /* ============== header ============= */
 /* ============== header ============= */
-
 header{
     /* background images */
     background: url("../img/ilustracion1.png");
@@ -73,12 +71,9 @@ header{
             }
     }
 }
-
-
 /* ============== main ============= */
 /* ============== main ============= */
 /* ============== main ============= */
-
 main{
     /* main section img top */
     .topMainSectionImg{
@@ -162,6 +157,38 @@ main{
                 }
             }
         }
+    }
+}
+
+footer{
+    text-align: center;
+    .footerHeadline{
+        margin-bottom: 2vh;
+    }
+    .footerHeadlineText{
+        margin-bottom: 2vh;
+    }
+    form{
+        .email{
+            display: block;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 1.5vh;
+        }
+        .submitButton{
+            margin-bottom: 8vh;
+        }
+        label{
+            display: none;
+            .submitButton{
+                display: block
+            }
+        }
+    }
+    .footerNote{
+        text-align: start;
+        padding-left: 5vw;
+        padding-bottom: 2vh;
     }
 }
 
