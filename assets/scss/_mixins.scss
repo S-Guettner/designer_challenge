@@ -1,1 +1,19 @@
 @import "variables";
+
+/* ========== first main grid section =========== */
+@mixin textGridPadding{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+@mixin gridItemHeadline{
+    display: flex;
+    margin-bottom: 1vh;
+}
+@mixin gridItemImage{
+    width: 20px;
+    margin-right:15px;
+}
+@mixin gridItemText{
+    width: 350px;
+    padding-left: 35px;
+}

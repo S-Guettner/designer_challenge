@@ -80,13 +80,14 @@ header{
 /* ============== main ============= */
 
 main{
+    /* main section img top */
     .topMainSectionImg{
         width: 100%;
         margin-bottom: 20vh;
     }
+    /* main section text top */
     .mainTextSection{
-        padding-left: 10vw;
-        padding-right: 10vw;
+        @include textGridPadding;
             .mainTopTextFlexContainer{
                 display: flex;
                 margin-bottom: 20vh;
@@ -103,6 +104,18 @@ main{
                 width: 65%;
                 margin-bottom: 20vh;
             }
+    }
+    .textGridContainer{
+        @include textGridPadding;
+        .gridItemHeadline{
+            @include gridItemHeadline;
+        }
+        .itemImg{
+            @include gridItemImage;
+        }
+        .itemText{
+            @include gridItemText;
+        }
     }
 }
 

@@ -1,5 +1,6 @@
 /* ============ colors ============= */
 /* ============ colors ============= */
+/* ========== first main grid section =========== */
 /* ============= fonts ============= */
 @font-face {
   font-family: "roboto";
@@ -81,6 +82,10 @@ header .headlineArticle p:nth-of-type(2) {
 /* ============== main ============= */
 /* ============== main ============= */
 /* ============== main ============= */
+main {
+  /* main section img top */
+  /* main section text top */
+}
 main .topMainSectionImg {
   width: 100%;
   margin-bottom: 20vh;
@@ -104,4 +109,20 @@ main .mainTextSection .mainTopTextFlexContainer p {
 main .mainTextSection .mainTopHeadlineBottom {
   width: 65%;
   margin-bottom: 20vh;
+}
+main .textGridContainer {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+main .textGridContainer .gridItemHeadline {
+  display: flex;
+  margin-bottom: 1vh;
+}
+main .textGridContainer .itemImg {
+  width: 20px;
+  margin-right: 15px;
+}
+main .textGridContainer .itemText {
+  width: 350px;
+  padding-left: 35px;
 }/*# sourceMappingURL=style.css.map */
