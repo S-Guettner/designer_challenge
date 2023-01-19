@@ -47,7 +47,9 @@
             /* padding-right: 5%; */
         }
     }
-
+    #subscribedConfirmation{
+        width: 30%;
+    }
 }
 
 @media only screen and (width <= 919px) {
@@ -114,5 +116,8 @@
     }
     .animatedImage{
         display: none;
+    }
+    #subscribedConfirmation{
+        
     }
     }

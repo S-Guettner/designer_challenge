@@ -128,19 +128,28 @@
         </section>
     </main>
     <footer>
-        <div>
-            <h2 class="headline footerHeadline">Do you like this challenge?</h2>
-            <p class="footerHeadlineText">Subscribe to be the first to hear about updates, tips and recommendations!</p>
-        </div>
-        <form action="">
-            <label for="email">E-mail</label>
-            <input placeholder="Write your email here" type="email" name="email" class="email" id="emailInput">
-            <label for="submit">Submit</label>
-            <button class="submitButton">Subscribe</button>
-        </form>
-        <div>
-            <p class="footerNote">Created with Love by a Webdesigner  ❤️</p>
-        </div>
+        <section id="footerInputContainer">
+            <div>
+                <h2 class="headline footerHeadline">Do you like this challenge?</h2>
+                <p class="footerHeadlineText">Subscribe to be the first to hear about updates, tips and recommendations!</p>
+            </div>
+            <form onsubmit="return false">
+                <label for="email">E-mail</label>
+                <input placeholder="Write your email here" type="email" name="email" class="email" id="emailInput">
+                <label for="submit">Submit</label>
+                <button id="submitButton" class="submitButton">Subscribe</button>
+            </form>
+        </section>
+        <section id="subscribedConfirmation">
+                <p>🎉</p>
+                <h3>YOUR EMAIL HAS BEEN CONFIRMED.</h3>
+                <h3>THANKS FOR SUBSCRIBING!</h3>
+                <p>Now we just need to confirm your e-mail adress - please check the link we send you. Thanks!</p>
+                <button id="closeConfirmation">BACK TO DESIGNCHALLENGE.COM</button>
+        </section>
+            <div>
+                <p class="footerNote">Created with Love by a Webdesigner  ❤️</p>
+            </div>
     </footer>
     <script src="./assets/js/main.js"></script>
 </body>

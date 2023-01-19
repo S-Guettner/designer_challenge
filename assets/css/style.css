@@ -194,6 +194,38 @@ footer {
       } */
   /* input */
 }
+footer #subscribedConfirmation {
+  display: none;
+  height: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+  box-shadow: 0px 6px 20px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+footer #subscribedConfirmation h3:nth-of-type(1) {
+  margin-bottom: 1vh;
+}
+footer #subscribedConfirmation h3:nth-of-type(2) {
+  margin-bottom: 1vh;
+}
+footer #subscribedConfirmation p:nth-of-type(1) {
+  margin-bottom: 2vh;
+}
+footer #subscribedConfirmation p:nth-of-type(2) {
+  font-size: 0.5rem;
+  margin-bottom: 2vh;
+}
+footer #subscribedConfirmation #closeConfirmation {
+  padding: 0.2rem;
+  color: #fff;
+  background-color: #ff3571;
+  border: none;
+}
+footer #subscribedConfirmation #closeConfirmation:hover {
+  background: linear-gradient(29deg, #ff3571 0%, #3C30FF 100%);
+}
 footer .footerHeadlineText {
   margin-bottom: 2vh;
 }
@@ -279,6 +311,9 @@ footer .footerNote {
     width: 55%;
     line-height: 1.6;
     /* padding-right: 5%; */
+  }
+  #subscribedConfirmation {
+    width: 30%;
   }
 }
 @media only screen and (width <= 919px) {
